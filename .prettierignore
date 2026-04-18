@@ -1,0 +1,7 @@
+vscode
+node_modules
+dist
+
+.env // environment file 
+.env// especially env file
+env// koi bhi env sample nhin
