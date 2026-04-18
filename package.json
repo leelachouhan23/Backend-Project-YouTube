@@ -1,0 +1,25 @@
+{
+  "name": "backend-project-youtube",
+  "version": "1.0.0",
+  "description": "a backend at chia or code channel-youtube",
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "homepage": "https://github.com/leelachouhan23/Backend-Project-YouTube#readme",
+  "bugs": {
+    "url": "https://github.com/leelachouhan23/Backend-Project-YouTube/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leelachouhan23/Backend-Project-YouTube.git"
+  },
+  "license": "ISC",
+  "author": "Leela Chouhan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
