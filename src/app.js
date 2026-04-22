@@ -1,4 +1,4 @@
-import express from "events";
+import express from "express";
 import cors from "cors"
 import cookieParser from "cookie-parser";
 import { execArgv } from "process";
@@ -25,7 +25,16 @@ app.use(express.static("public"))
 //Cookies allow the server to access and set data in the user’s browser, for basically perfoming crud operations.
 app.use(cookieParser()) 
 
+
+//routes import
+
+import userRouter from './routes/user.router.js'
+import { register } from "module";
+//routes declaration 
+app.use("/api/v1/users", userRouter)
+
+
+
+// http:/localhost:8000/users/register
 export {app}; 
-
-
 //whenever you will use app.use that is useful for  middleware 

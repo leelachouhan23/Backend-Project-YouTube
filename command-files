@@ -1,3 +1,9 @@
 //npm i cookie-parser cors
 //npm i mongoose-aggregate-paginate-v2
 //npm i mongoose-aggregate-paginate-v2// using of this is bycript our file or password
+//s
+udo apt install libgl1-mesa-glx libgl1-mesa-dri mesa-utils
+//s
+udo snap refresh
+// p
+ostman --disable-gpu
